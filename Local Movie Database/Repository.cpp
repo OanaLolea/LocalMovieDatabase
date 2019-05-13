@@ -34,6 +34,7 @@ vector<Movie> Repository::getAllMovies()
 	return this->movies;
 }
 
+// as inlocui aici cu copy_if (cerinta lab 8)
 vector<Movie> Repository::getMovieByGenre(string & genre)
 {
 	vector<Movie> v{};
