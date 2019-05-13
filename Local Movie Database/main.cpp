@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
 	{
+		// pentru lab 8 datele trebuie citite din fisier text
 		Test::run_tests();
 		Movie m1 = Movie("Titanic", "Drama", 1997, 10000, "https://www.youtube.com/watch?v=kVrqfYjkTdQ");
 		Movie m2 = Movie("Avengers: Endgame", "Action", 2019, 9999, "https://www.youtube.com/watch?v=TIQZjO5dfnQ");
